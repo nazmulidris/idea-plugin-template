@@ -1,7 +1,7 @@
 # idea-plugin-template
 
-This is a starter project to help you quickly create a new IDEA plugin that uses gradle, and not DevKit. Here are some
-features that come with this plugin:
+This is a starter project to help you quickly create a new IDEA plugin that uses gradle, and not
+DevKit. Here are some features that come with this plugin:
 
 1. Setup to run JUnit4 (using AssertJ) tests
 2. Can run tests from command line w/ gradle, and from run configuration named "run all tests"
@@ -10,9 +10,9 @@ features that come with this plugin:
 5. Can load testdata from the testdata folder using TestUtils.kt
 6. `.gitignore` and `.prettierrc` have already been setup and configured
 
-In order to use this project, search for the strings "template" (your new IDEA project name) and "com.developerlife"
-(your new package name) across the entire project folder. You will find these pop up in the following locations (which
-are relative to PROJECT_DIR).
+In order to use this project, search for the strings "template" (your new IDEA project name) and
+"com.developerlife" (your new package name) across the entire project folder. You will find these
+pop up in the following locations (which are relative to PROJECT_DIR).
 
 Project name updates:
 
@@ -24,10 +24,12 @@ Project name updates:
 Package name updates:
 
 1. `build.gradle.kts` - change "com.developerlife" to the package of your new IDEA project
-2. `src/main/resources/META-INF/plugin.xml` - change "com.developerlife" to the package of your new IDEA project
+2. `src/main/resources/META-INF/plugin.xml` - change "com.developerlife" to the package of your new
+   IDEA project
 
 Change the file names of the .iml files:
 
-1. Rename the two .iml files in `.idea/modules/` folder: `template.main.iml` and `template.test.iml`.
-2. Change "template" to the name of your new IDEA project (and this should match the changes you made in the
-   `./idea/modules.xml` file).
+1. Rename the two .iml files in `.idea/modules/` folder: `template.main.iml` and
+   `template.test.iml`.
+2. Change "template" to the name of your new IDEA project (and this should match the changes you
+   made in the `./idea/modules.xml` file).
